@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Footer Part */
+footer {
+    font-size: .9em;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: rgb(0, 13, 48);
+    color: #ffffff8f;
+    text-align: left;
+    line-height: 1.3;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+
+#main-footer {
+    padding: 30px;
+    align-items: flex-start;
+    
+
+}
+
+#main-footercontact{
+    height: 50vh;
+    padding: 30px;
+    align-items: flex-start;
+    border-left: 1px solid white;
+    
+}
+
+
+
+/* Navigation bar Css Part */
+nav.container{
+    background-color: rgb(0, 13, 48);
+    display: flex;
+    height:50px;
+    width:100vw;
+}
+.container li{
+    list-style: none;
+    width:100%;
+}
+
+.container .modal li a{
+    text-decoration: none;
+    
+}
+.modal{
+    color: antiquewhite;
+    height:20px;
+    width:300px;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 10px;
+}
+.modal h2{
+    font-size: 15px;
+    /* background-color: aliceblue; */
+    
+}
+.dropdown{
+    /* visibility:hidden; */
+    padding: 10px;
+    display:none;
+    background-color: rgba(3, 4, 49, 0.632);
+    /* width: 20vw; */
+}
+
+.modal .dropdown{
+    line-height: 1.1;
+    box-shadow: 10px solid black;
+}
+.modal:hover .dropdown{
+    display: block;
+    opacity: 1;
+    /* visibility: visible; */
+}
+.dropdown li a{
+    transition: all ease 5s;
+    color: antiquewhite;
+    font-size: 1em;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 1.1;
+}
